@@ -8,7 +8,6 @@ class ArraysCalculator {
         int size;
 
         if (numbers == null) throw new NullPointerException();
-
         if (numbers.length < n) throw new ArrayIndexOutOfBoundsException();
 
         if (numbers.length % n == 0) {
